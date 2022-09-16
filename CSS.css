@@ -1,0 +1,30 @@
+body{
+    background-image: url(img/arkafon.png);
+    background-size: 100% 100%;
+}
+img{
+    width:300px;
+    -webkit-transition:width 0.2s;
+}
+img#Joker{
+    position:absolute;
+    left:50%;
+    margin-left: -150px;
+    margin-top: 60px;
+}
+img#As{
+    position:absolute;
+    margin-left:250px;
+    top:100px;
+    -webkit-transform: rotate(-10deg);
+}
+img#Kral{
+    position:absolute;
+    right:250px;
+    top:100px;
+    -webkit-transform: rotate(10deg);  
+}
+img:hover{
+    width:350px;
+    z-index: 2;
+}
